@@ -1,0 +1,7 @@
+#load {
+    width: 0%;
+    transition: 650ms ease;
+}
+#load-cont {
+    height: 2vh;
+}

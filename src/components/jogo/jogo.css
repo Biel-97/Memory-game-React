@@ -1,0 +1,21 @@
+html, body, #root {
+    height: 100%;
+}
+#root {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-Content: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+}
+#jogo {
+    display: flex;
+    position: relative;
+    align-Content: center;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-self: center;
+    align-items: center;
+}

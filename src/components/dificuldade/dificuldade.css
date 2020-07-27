@@ -1,0 +1,29 @@
+.dificuldade {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(27, 27, 27);
+    width: 110px;
+    height: 140px;
+    border-radius: 5%;
+    background-color: rgb(58, 58, 58);
+}
+
+.facil, .medio, .dificil {
+    display: flex;
+    margin: 5px;
+    background-color: rgb(212, 208, 155);
+    width: 100px ;
+    cursor: pointer;
+    justify-content: center;
+    font-family: fantasy;
+    border-radius: 5%;
+}
+
+
+.facil:hover, .medio:hover, .dificil:hover {
+    background-color: rgb(251, 255, 0);
+    transition: ease 0.5s;
+}
+
