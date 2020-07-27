@@ -66,7 +66,7 @@ class Jogo extends React.Component {
     load_start() {
         let load = document.querySelector('.load')
         let porcento = 0
-        this.setState({ fim: setInterval(contador.bind(this), 400) })  
+        this.setState({ fim: setInterval(contador.bind(this), 610) })  
         function contador() {
             porcento++
             load.style.width = porcento + "%"
