@@ -21,8 +21,6 @@ you can check other version of this app <a href="https://codepen.io/Biel_/full/w
 •	three different difficulties.<br>
 
 <h2>Getting Started</h2>
-<h3>Prerequisites</h3>
-
 
 <h3>Installing</h3>
 
