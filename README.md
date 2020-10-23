@@ -1,68 +1,59 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p> If you want to take a look on all screens of the App, click <a href="https://biel-97.github.io/Memory-game-React/" target="_blank">here.</a></p>
+<h2>About this Project</h2> 
+<p>The idea of the App is:</p>
+<p><i>"use my knowledge to improve and test my skills of a web developer".</i></p>
 
-## Available Scripts
 
-In the project directory, you can run:
+<h2>Why?</h2>
+<p>This project is part of my personal portfolio, so, I'll be happy if you could provide me any feedback about the project, code, structure or anything that you can report that could make me a better developer!</p>
 
-### `npm start`
+<span>Email-me: <a>gabriel.pso100@gmail.com</a ></span><br>
+<span>Connect with me at <a target="_blank" href="https://www.linkedin.com/in/gabriel-97-oliveira">linkedin</a></span><br>
+<h2>Some Observations about this App</h2>
+<p>
+you can check other version of this app <a href="https://codepen.io/Biel_/full/wvaEOrb">here</a>, building onlly whith html, css and vanilla javascript. </p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h2>Functionalities</h2>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+•	randomly choose the position of the cards in each game. <br>
+•	win and loss count at the bottom.<br>
+•	60 second count for each game.<br>
+•	three different difficulties.<br>
 
-### `npm test`
+<h2>Getting Started</h2>
+<h3>Prerequisites</h3>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p>To run this project in the development mode, you'll need to have a basic environment with NodeJS 8+ and React JS 16.13 + installed</p>
 
-### `npm run build`
+<h3>Installing</h3>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h3>Cloning the Repository</h3><br>
+<span>$ git clone https://github.com/Biel-97/Memory-game-React</span><br>
+<span>$ cd Memory-game-React</span><br>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h3>Installing dependencies </h3>
 
-### `npm run eject`
+<span>$ yarn</span><br>
+<i>Or</i><br>
+<span>$ npm install</span><br>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h3>In the folder:</h3>
+<span>$ npm start</span><br>
+<i>Or</i><br>
+<span>$ npm run dev (for run with the nodemon)</span>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<h2>Built With</h2>
+<span>• React JS – 16.13.1</span><br>
+<span>• Fontawesome – 4.7</span><br>
+<span>• Bootstrap – 4.5.2</span><br>
 
-## Learn More
+<h2>Contributing</h2>	
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p>You can send how many PR's do you want, I'll be glad to analyse and accept them! And if you have any question about the project...</p>
+<span>Email-me: <a href="gabriel.pso100@gmail.com">gabriel.pso100@gmail.com</a> </span><br>
+<span>Connect with me at <a href ="http://www.linkedin.com/in/gabriel-97-oliveira" target="_blank">LinkedIn</a> </span><br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<h3>Thank you!</h3>
