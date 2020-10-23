@@ -23,7 +23,6 @@ you can check other version of this app <a href="https://codepen.io/Biel_/full/w
 <h2>Getting Started</h2>
 <h3>Prerequisites</h3>
 
-<p>To run this project in the development mode, you'll need to have a basic environment with NodeJS 8+ and React JS 16.13 + installed</p>
 
 <h3>Installing</h3>
 
