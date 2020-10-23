@@ -48,25 +48,41 @@ class Jogo extends React.Component {
     }
 
     chamar_jogo = (e) => {
+
+
         if (e.target.getAttribute('value')) {
-            this.state = {
-                valorMaximo: e.target.getAttribute('value'),
-            }
-            this.setState({
-                jogo: this.criar_cartas(e.target.getAttribute('value'))
-            })
-            this.load_start()
+            document.querySelector('.dificuldade').style.transition = "all 300ms";
+            document.querySelector('.dificuldade').style.opacity = '0';
+            let target = e.target.getAttribute('value')
+            setTimeout(() => {
+
+                this.state = {
+                    valorMaximo: target,
+                }
+                this.setState({
+                    jogo: this.criar_cartas(target)
+                })
+                this.load_start()
+            }, 300)
         }
+
     }
 
     load_finish(parametro) {
+        setTimeout(() => {
+            document.querySelectorAll('.conteiner-card').forEach((element) => {
+                element.style.transition = 'all 200ms'
+                element.style.opacity = '0'
+            })
         clearInterval(parametro)
         document.querySelector('.load').style.width = "0%"
+        }, 200)
+        
     }
     load_start() {
         let load = document.querySelector('.load')
         let porcento = 0
-        this.setState({ fim: setInterval(contador.bind(this), 610) })  
+        this.setState({ fim: setInterval(contador.bind(this), 610) })
         function contador() {
             porcento++
             load.style.width = porcento + "%"
@@ -76,6 +92,12 @@ class Jogo extends React.Component {
                 this.derrota()
             }
         }
+        setTimeout(() => {
+            document.querySelectorAll('.conteiner-card').forEach((element) => {
+                element.style.transition = 'all 200ms'
+                element.style.opacity = '1'
+            })
+        }, 200)
     }
 
     click = (e) => {
@@ -91,7 +113,7 @@ class Jogo extends React.Component {
                         e.style.border = "2px solid rgb(155, 140, 73)";
                         e.style.transition = "all 0.4s ease";
                         cont++
-                        if (cont === document.querySelector('#jogo').children.length -1) {
+                        if (cont === document.querySelector('#jogo').children.length - 1) {
                             this.vitoria()
                         }
                     }, 500)
@@ -114,10 +136,13 @@ class Jogo extends React.Component {
             cont = 0
             sorteados = []
             this.load_finish(this.state.fim)
+            console.log(document.querySelector('.dificuldade'))
+
         }, 1000)
     }
 
     derrota() {
+
         setTimeout(() => {
             this.setState({
                 jogo: <Dificuldade chamar_jogo={(e) => this.chamar_jogo(e)} />,
@@ -126,7 +151,7 @@ class Jogo extends React.Component {
             document.querySelector('.derrota').innerHTML = this.state.derrota
             cont = 0
             sorteados = []
-        }, 100)
+        }, 200)
     }
 
     render() {

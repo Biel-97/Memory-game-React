@@ -8,7 +8,6 @@ html, body, #root {
     align-Content: center;
     justify-content: space-between;
     width: 100%;
-    background-color: rgb(34, 34, 34);
 }
 #jogo {
     display: flex;
@@ -18,4 +17,6 @@ html, body, #root {
     justify-content: center; 
     align-self: center;
     align-items: center;
+    /* border: 1px solid black; */
+    
 }
